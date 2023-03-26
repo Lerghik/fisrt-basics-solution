@@ -46,7 +46,7 @@ body {
 	}
 }
 
-/* Utility */
+/* Utilities */
 
 .color-grey {
 	color: var(--lavender);
@@ -68,7 +68,9 @@ body {
 	padding-left: 1rem;
 }
 
-/* end utility */
+/* end utilities */
+
+/* Main result section */
 
 .result {
 	background-image: linear-gradient(to top, var(--royal_blue) 0%, var(--slate_blue) 100%);
@@ -136,10 +138,9 @@ body {
 	font-size: 4.5rem;
 }
 
-.summary-sec {
-	display: flex;
-	flex-direction: column;
-}
+/* en main result */
+
+/* Detailed results section */
 
 .summary-main h3 {
 	width: 80%;
@@ -162,6 +163,10 @@ body {
 	}
 }
 
+.summary-sec {
+	display: flex;
+	flex-direction: column;
+}
 .partial-res {
 	width: 80%;
 	margin: 1rem auto;
@@ -211,7 +216,7 @@ body {
 	.button:hover {
 	cursor: pointer;
 	background-color: var(--royal_blue);
-}
+	}
 }
 
 .attribution {
